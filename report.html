@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>L2S</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400;1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="report.css">
+    </head>
+
+<body>
+    <div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a class="active" href="landing.html">Home</a></li>
+                    <li><a href="#news">Back</a></li>
+                    <li><a href="#contact">Next</a></li>
+                    <li style="float:right"><a href="#about"><div id="user_name"> </div></a></li>
+                    
+                </ul>
+            </nav>
+            <header>
+                <h1> Report of Individual </h1> 
+            </header>
+            <br/> <br/>
+            <div class="paragraphs">
+                <div class="paras" id="total_users"> </div>
+
+                <div class="para">
+                    <p> Questions </p>
+                </div>
+
+                <div class="paras" id="passid">  </div>
+                
+                <div class="para">
+                    <p> Correct </p>
+                </div>
+
+                <div class="paras" id="failid"> </div>
+
+                <div class="para">
+                    <p> Wrong </p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <script src="report.js" > </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        
+        
+        <div id="donut">
+            <br/> <br/>  
+            <canvas id="myChart" ></canvas>
+        </div class="graph"> 
+
+            <div id="pie"> 
+                <canvas id="myChart1" ></canvas>
+            </div>
+
+            <div id="report">
+                <br/> <br/> <br/> <br/>
+                <button > <a href="user.html"> Report </a> </button>
+            </div>
+        </div>
+        <footer>
+            <h3>Powered By <img src="logo.svg" alt="logo" /></h3>
+            <p>@Copyright Geek Guild 2022- All Right Reserved.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>

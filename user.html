@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    <link rel="stylesheet" href="user.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="root">
+        <div class="nav-group">
+            <div class="nav-logo">
+                <a href="./landing.html"><img src="./images/Logo1.png" height="60px" width="90px"/></a>
+            </div>
+            <ul class="nav-rght">
+                <li><a href="#" id="btn"><img src="./images/logout.png" /></a></li>
+            </ul>
+        </div>
+        <div class="head">
+            <h1>Score Card</h1>
+            <a class="active" href="landing.html">Home</a>
+        </div>
+        <div class="table">
+            <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names.." title="Type in a name"/>
+            <select onchange="filter(this)">
+                <option value="all">All</option>
+                <option value="pass">Passed</option>
+                <option value="fail">Failed</option>
+            </select>
+            <table id="display">
+                <thead>
+                    <tr>
+                        <th>Employee ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Attempts</th>
+                        <th>Status</th>
+                        <th>Score</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                
+            </table>
+        </div>
+        <footer>
+            <h3>Powered By <img src="./images/logo.svg" alt="logo" /></h3>
+            <p>@Copyright Geek Guild 2022- All Right Reserved.</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="user.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+h1,header{
+    background-color: red;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.para{
+    width: 25%;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.paragraphs{
+    text-align: center;
+}
+
+.paras{
+    position: absolute;
+    width: 25%;
+    display: inline-block;
+}
+
+input{
+    border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  text-align: center;
+  position: relative;
+}
+/* .graph{
+    display: flex;
+
+} */
+
+#donut{
+    width:15%;  
+    float: left;
+  
+}
+
+#pie{
+    
+    width:30%;  
+   padding-left: 500px;
+   padding-right: 500px;
+   margin-left: 500px;
+   margin-right: 500px;
+}
+
+button{
+    bottom:150px;
+    padding: 5px;
+    position: absolute;
+    right: 150px;
+    width: 70px;
+    border: 0px solid #e22e2e;
+}
+
+button {
+    background-color: #9538e0;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #5bae75;
+}
+
+button:focus {
+    outline: none;
+    background-color: #d82927;
+}
+img{
+    background-color: white;
+}
+footer {
+    border-top: 1px solid #cfd8dc;
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+}
